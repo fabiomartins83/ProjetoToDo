@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Projeto ToDo - Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="titulo">Projeto ToDo<br>Post-it Digital</h1>
+<!--
+    <form id="formnome" onsubmit="return false">
+        <input type="text" id="nome" placeholder="Insira o nome da lista">
+    </form> 
+-->
+
+    <p>Insira a(s) tarefa(s) a realizar no formulário abaixo. <br>Para apagá-la, clique duas vezes sobre ela. </p>
+    <form id="formtarefa" onsubmit="return false">
+<!--        
+        <input type="color" id="campo_cor"> 
+-->
+        <input type="text" id="campo_texto" placeholder="Insira a tarefa">
+        <button id="botao_adicionar">Adicionar</button>
+    </form>
+    <br>
+    <ul id="tarefas"></ul>
+    <footer class="rodape"><br>Desenvolvido por <strong>Fábio de Almeida Martins</strong>. <br><strong>ETEC Irmã Agostina</strong> - <strong>Centro Paula Souza</strong> <br>Aluno do curso de Desenvolvimento de Sistemas. <br> 1o semestre de 2020. </footer>
+
+</body>
+
+<script src="script.js"></script>
+</html>
